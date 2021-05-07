@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import GettingStarted from '../components/GettingStarted'
 import Favourites from '../components/Favourites'
 import Customize from '../components/Customize'
+import EndlessExtras from '../components/EndlessExtras'
 
 import Image from 'next/image'
 
@@ -35,6 +36,9 @@ export default function Rewards() {
         </div>
         <div>
             <Customize />
+        </div>
+        <div>
+            <EndlessExtras />
         </div>
     </div>
   )
