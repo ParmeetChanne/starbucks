@@ -10,23 +10,19 @@ import Image from 'next/image'
 
 export default function Rewards() {
   return (
-    <div className="bg-100 h-full">
-        {/*<Image
-            src="/starbucks.png"
-            alt="Starbucks"
-            layout="fill"
-            className="starbucks"
-            />
-        <style jsx global>{`
-            .starbucks {
-            justify-content: right;
-            }
-        `}
-        </style>*/}
+    <div className="bg-100 h-full w-screen grid">
+        <div className="hidden md:flex">
+            <Image
+                src="/starbucks-1.png"
+                alt="Starbucks"
+                layout="fill"
+                className="starbucks"
+                />
+        </div>
         <div className="bg-100 items-center justify-center bg-blue text-xss">
             <Header />
         </div>
-        <div>
+        <div className="">
             <Hero/>
         </div>
         <div className="">
@@ -47,3 +43,16 @@ export default function Rewards() {
     </div>
   )
 }
+
+<style jsx global>{`
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: Lobster;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+`}</style>

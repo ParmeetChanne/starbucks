@@ -10,7 +10,7 @@ export default function GettingStarted() {
             Earn Stars and get rewarded in a few easy steps.
         </div>
         <div className="flex flex-row mt-10 items-center justify-center">
-            <div className="items-center justify-between flex flex-row">
+            <div className="items-center justify-between flex flex-col md:flex-row">
                 <div className="">
                     <Image
                     src="/menu-1.jpg"
@@ -30,7 +30,7 @@ export default function GettingStarted() {
                     </span>
                 </div>
                 </div>
-                <div className="px-14">
+                <div className="px-14 py-14 md:py-0">
                     <Image
                     src="/menu-2.jpg"
                     alt="Starbucks"

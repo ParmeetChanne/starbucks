@@ -16,7 +16,7 @@ export default function EarnStars() {
         <div className="flex flex-col pl-14 pt-24">
 
             {/* 1 dollar */}
-            <div className="flex pb-6">
+            <div className="flex flex-col md:flex-row pb-6">
                 <div className=""> 
                     <div className="text-300 text-2xl font-semibold">1★ per dollar</div>
                     <div className="text-300">Pay as you go</div>
@@ -72,7 +72,7 @@ export default function EarnStars() {
             <hr className="pb-12"></hr>
 
             {/* 2 dollars */}
-            <div className="flex pb-6">
+            <div className="flex flex-col md:flex-row pb-6">
                 <div className=""> 
                     <div className="text-300 text-2xl font-semibold">2★ per dollar</div>
                     <div className="text-300">Add funds in the app</div>
@@ -130,7 +130,7 @@ export default function EarnStars() {
             <hr className="pb-12"></hr>
 
             {/* 3 dollars */ }
-            <div className="flex">
+            <div className="flex flex-col md:flex-row">
                 <div className=""> 
                     <div className="text-300 text-2xl font-semibold">Up to 3★ per dollar</div>
                     <div className="text-300">With Starbucks® Rewards <br /> Visa® Card</div>

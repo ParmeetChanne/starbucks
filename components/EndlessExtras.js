@@ -8,10 +8,10 @@ export default function EndlessExtras() {
         </div>
         <div className="text-300 text-center pt-5">
             Joining Starbucks® Rewards means unlocking access to exclusive benefits. Say hello to 
-            <br />
+            <br className="hidden md:block"></br>
             easy ordering, tasty Rewards and—yes, free coffee.
         </div>
-        <div className="flex flex-row text-300 pt-12 justify-center items-center text-center">
+        <div className="flex flex-col md:flex-row text-300 pt-12 justify-center items-center text-center">
             <div>
                 <div>
                     <Image
@@ -36,7 +36,7 @@ export default function EndlessExtras() {
                     </div>
                 </div>
             </div>
-            <div className="px-16">
+            <div className="px-16 py-16 md:py-0">
                 <div>
                     <Image
                     src="/freebies-2.png"
